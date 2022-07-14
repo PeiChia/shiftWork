@@ -1,0 +1,90 @@
+﻿[
+  {
+    "Subject": "AB(07:00-15:00)",
+    "Start_Date": "",
+    "Start_Time": "07:00 AM",
+    "End_Date": "",
+    "End_Time": "03:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "BC(08:00-16:00)",
+    "Start_Date": "",
+    "Start_Time": "08:00 AM",
+    "End_Date": "",
+    "End_Time": "04:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "DB(10:00-18:00)",
+    "Start_Date": "",
+    "Start_Time": "10:00 AM",
+    "End_Date": "",
+    "End_Time": "06:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "EC(11:00-19:00)",
+    "Start_Date": "",
+    "Start_Time": "11:00 AM",
+    "End_Date": "",
+    "End_Time": "07:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "FB(12:00-20:00)",
+    "Start_Date": "",
+    "Start_Time": "12:00 PM",
+    "End_Date": "",
+    "End_Time": "08:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "HB(14:00-22:00)",
+    "Start_Date": "",
+    "Start_Time": "02:00 PM",
+    "End_Date": "",
+    "End_Time": "10:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "JB(16:00-24:00)",
+    "Start_Date": "",
+    "Start_Time": "04:00 PM",
+    "End_Date": "",
+    "End_Time": "11:59 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "CB(09:00-17:00)",
+    "Start_Date": "",
+    "Start_Time": "09:00 AM",
+    "End_Date": "",
+    "End_Time": "05:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "IA(15:00-23:00)",
+    "Start_Date": "",
+    "Start_Time": "03:00 PM",
+    "End_Date": "",
+    "End_Time": "11:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "RA(00:00-08:00)",
+    "Start_Date": "",
+    "Start_Time": "12:00 AM",
+    "End_Date": "",
+    "End_Time": "08:00 AM",
+    "All_Day_Event": "FALSE"
+  },
+  {
+    "Subject": "放假",
+    "Start_Date": "",
+    "Start_Time": "",
+    "End_Date": "",
+    "End_Time": "",
+    "All_Day_Event": "TRUE"
+  }
+]
