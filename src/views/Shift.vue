@@ -136,7 +136,8 @@ export default {
       this.addStatus = false;
       let startValue = moment(this.startDate);
       let endValue = moment(this.endDate);
-      this.rows = utils.diffDays(startValue, endValue);
+      // 注意：rows 是相差的天數 + 1天 (開始日期)
+      this.rows = utils.diffDays(startValue, endValue) + 1;
       this.dates = utils.writeDates(startValue, endValue);
       this.isBusy = true;
       setTimeout(() => {

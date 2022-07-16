@@ -28,9 +28,16 @@ export default {
       if (index >= 0) {
         shiftData[index].Start_Date = d.date;
         shiftData[index].End_Date = d.date;
+        // 回傳符合 google 日曆需求的欄位格式
+        return {
+          Subject: shiftData[index].Subject,
+          "Start Date": d.date,
+          "Start Time": shiftData[index].Start_Time,
+          "End Date": d.date,
+          "End Time": shiftData[index].End_Time,
+          "All Day Event": shiftData[index].All_Day_Event,
+        };
       }
-
-      return shiftData[index];
     });
     return newDates;
   },
