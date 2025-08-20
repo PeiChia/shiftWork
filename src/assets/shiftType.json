@@ -40,6 +40,14 @@
     "All_Day_Event": "FALSE"
   },
   {
+    "Subject": "GB(13:00-21:00)",
+    "Start_Date": "",
+    "Start_Time": "01:00 PM",
+    "End_Date": "",
+    "End_Time": "09:00 PM",
+    "All_Day_Event": "FALSE"
+  },
+  {
     "Subject": "HB(14:00-22:00)",
     "Start_Date": "",
     "Start_Time": "02:00 PM",
