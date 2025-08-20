@@ -1,4 +1,5 @@
 import shiftData from "../assets/shiftType.json";
+import moment from "moment";
 export default {
   // 用途：計算開始與結束日期相差天數
   diffDays(start, end) {
@@ -26,14 +27,25 @@ export default {
         .map((v) => v.Subject == d.type && d.type !== "")
         .indexOf(true);
       if (index >= 0) {
-        shiftData[index].Start_Date = d.date;
-        shiftData[index].End_Date = d.date;
+        let startDate = moment(d.date, "MM/DD/YYYY");
+        let endDate = moment(d.date, "MM/DD/YYYY");
+
+        if (shiftData[index].Subject.includes("RA")) {
+          startDate = startDate.add(1, "days");
+          endDate = endDate.add(1, "days");
+        }
+
+        let startStr = startDate.format("MM/DD/YYYY");
+        let endStr = endDate.format("MM/DD/YYYY");
+
+        shiftData[index].Start_Date = startStr;
+        shiftData[index].End_Date = endStr;
         // 回傳符合 google 日曆需求的欄位格式
         return {
           Subject: shiftData[index].Subject,
-          "Start Date": d.date,
+          "Start Date": shiftData[index].Start_Date,
           "Start Time": shiftData[index].Start_Time,
-          "End Date": d.date,
+          "End Date": shiftData[index].End_Date,
           "End Time": shiftData[index].End_Time,
           "All Day Event": shiftData[index].All_Day_Event,
         };
